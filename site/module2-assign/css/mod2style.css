@@ -10,7 +10,6 @@ h1{
 }
 body{
    padding: 0px;
-   margin:0px;
    font-family: sans-serif, helvetica;
 }
 
@@ -38,29 +37,30 @@ body{
 
 #d1{
    background-color:  #ffb3b3;
+   
 }
 
 #d2 {
    background-color: #66ffff;
+  
 }
 
 #d3{
 	background-color: #ccff66;
+	
 }
-
 #c1,#c2,#c3{
+	
 	padding:10px;
 }
 
 @media (max-width: 767px){
- .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-12 {
   	float: left;
     border: 1px solid black;
+    width: 100%;
     margin:10px;
     background-color:gray;
-   }
-   .col-sm-12{
-     width: 90%;
    }
 }
 
